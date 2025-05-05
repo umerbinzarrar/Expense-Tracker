@@ -11,6 +11,8 @@ const dumm_expenses = [
 ];
 function App() {
 
+  // Communication from child to parent
+
 const [expenses, setExpenses] = useState(dumm_expenses);
 
 const addExpenseHandler = expense =>{

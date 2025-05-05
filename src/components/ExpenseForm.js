@@ -34,11 +34,13 @@ function ExpenseForm(props) {
     }
 
     return (
+
+        // two way binding
         <form onSubmit={submitHandler}>
             <div className="new-expense__controls">
                 <div className="new-expense__control">
-                    <label>Title</label>
-                    <input type="text" value={enteredTitle} onChange={titleChangeHandeler} />
+                    <label>Title</label>                 
+                    <input type="text" value={enteredTitle} onChange={titleChangeHandeler} />  
                 </div>
                 <div className="new-expense__control">
                     <label>Amount</label>
